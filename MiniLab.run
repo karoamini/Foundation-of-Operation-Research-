@@ -1,0 +1,11 @@
+reset;
+
+model MiniLab.mod
+data minimart-1.dat
+
+option solver cplexamp;
+
+solve;
+
+display x, y;
+
